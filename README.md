@@ -1,1 +1,1 @@
-# math-hl.github.io
+# mathhl.github.io
