@@ -58,3 +58,13 @@ img{
 	position: absolute;
 	bottom: -50%;
 }
+
+#about{
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 50px;
+}
+
+#abouttext{
+	font-family: Arial;
+}
