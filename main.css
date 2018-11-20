@@ -1,7 +1,7 @@
 body
 {
 height: 1000px;
-font-family: arial;
+font-family: Arial;
 }
 button
 {
@@ -21,45 +21,26 @@ img{
 }
 
 #rndmq{
-	position: relative;
-	top: 50%;
-	color: #8cff66;
-	border: none;
 	width: 350px;
 	height: 50px;
 	font-size: 30px;
-	zoom: 1;
-	-webkit-transition: font-size 2s;
 }
 
-#rndmq:hover{
-	font-size: 40px;
-}
 
 #topq{
-	position: relative;
-	top: 50%;
-	color: #8cff66;
-	border: none;
 	width: 350px;
 	height: 50px;
 	font-size: 30px;
-	zoom: 1;
-	-webkit-transition: font-size 2s;
 }
 
-#topq:hover{
-	font-size: 40px;
-}
 
 #footer{
 	background-color: #61c2da;
 	width: 100%;
 	height: 200px;
-	position: absolute;
-	bottom: -50%;
+	position: relative;
+	bottom: -25%;
 	text-align: center;
-
 }
 #footer a {
 	position: relative;
@@ -70,36 +51,28 @@ img{
 #footer a:hover {
 		color: #8CFF66;
 }
-#about{
+#about {
 	font-family: Helvetica;
 	font-weight: lighter;
 	font-size: 50px;
 }
 
-#home{ 
+#home { 
 	font-size: 30px; 
 	text-decoration: none;
 }
 
 
-a{
+a {
 	font-family: Helvetica;
 	color: #61C2D9;
 }
 
 
-a:hover{
-
-		color: #8CFF66;
+a:hover {
+	color: #8CFF66;
 }
 
-#abouttext{
-	text-indent: 25px;
-	font-family: Arial;
-	/*margin: 10%;*/
-	position: absolute;
-	text-align: justify;
-	left: 20%;
-	right: 20%;
+.buttons {
+	margin-top: 10%;
 }
-
