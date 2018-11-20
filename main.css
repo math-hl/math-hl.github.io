@@ -76,3 +76,16 @@ a:hover {
 .buttons {
 	margin-top: 10%;
 }
+#answer_btn {
+	opacity: 0.5;
+}
+#img_question {
+	visibility: hidden;
+	width: auto;
+	height: auto;
+}
+#img_answer {
+	visibility: hidden;
+	width: auto;
+	height: auto;
+}
