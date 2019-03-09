@@ -1,6 +1,6 @@
 random_btn.onclick = function() {
 	// generate a random number then round it down
-	var random = Math.floor(Math.random()*5)
+	var random = Math.ceil(Math.random()*5)
 	console.log(random)
 	// the topic which will be chosen randomly too
 	var topics = [" ", "series_induction", "functions", "complex_numbers", "calculus", "logarithms", "statistics_probability", "trigonometry", "vectors"]
