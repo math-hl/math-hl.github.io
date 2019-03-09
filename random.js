@@ -8,6 +8,7 @@ random_btn.onclick = function() {
 	console.log(topicsRandom)
 	// you will have to spam the "random" button before it works properly
 	img_question.style.visibility = "visible";
+	img_answer.style.visibility = "hidden";
 	img_question.src = "images/" + topics[topicsRandom] + "/" + random + "q.png"
 	if (img_question.style.visibility == "visible") {
 		answer_btn.style.opacity = "1"
